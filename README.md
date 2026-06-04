@@ -59,9 +59,10 @@ Power BI – Interactive dashboard creation
 
 ## 🔍 Key Analysis Performed
 
-
-
-
+- **Key Performance Indicators (KPIs):** Tracking Total Revenue ($116.14M), Total Customers (150K), Average Revenue, and Active Hours.
+- **Customer Segmentation:** Analyzed customers based on Subscription Type, Gender, Payment Methods, and Device Types.
+- **Interactive Slicers:** Enabled seamless filtering by Country, Device Type, and Subscription Tiers with a custom **Reset Filters** action button.
+- **Data Cleanliness:** Fully optimized UX with standard business naming conventions, custom corporate color themes, and responsive visuals.
 
 
 ## 📷 Dashboard Preview
