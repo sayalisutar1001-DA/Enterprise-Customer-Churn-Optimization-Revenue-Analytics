@@ -2,15 +2,10 @@
 
 
 
-A comprehensive exploratory data analysis (EDA) of Adidas US retail sales data using Python — uncovering revenue trends, regional performance, product profitability, and retailer insights.
+End-to-end data analytics project using SQL and Power BI to analyze mobile sales data, uncover trends, and build interactive dashboards for business insights.
 
 ## 📌 Project Overview
-This project analyzes Adidas US sales data to answer key business questions:
-
-Which retailers and products drive the most revenue and profit?
-Which regions and cities are the strongest markets?
-How do online vs. in-store sales compare?
-What changed year-over-year between 2020 and 2021?
+This project delivers an interactive, end-to-end Business Intelligence (BI) solution designed to track, analyze, and mitigate customer churn while uncovering critical revenue optimization opportunities. Utilizing an enterprise customer database, the solution visualizes the complex relationships between subscription tiers, geographic distributions, user engagement levels, and customer sentiment.The project features a 3-page dynamic Power BI dashboard built using robust data modeling and DAX formulas, providing decision-makers with actionable, drill-down operational insights.
 
 # 📁 Dataset
 
@@ -69,38 +64,75 @@ Power BI – Interactive dashboard creation
 
 ###  Enterprise Customer Churn Optimization & Revenue Analytics
 
-
-<img width="2575" height="1638" alt="enterprices_page-0001" src="https://github.com/user-attachments/assets/0c5391dc-7632-436f-951b-24364044c0be" />
+<img width="753" height="470" alt="image" src="https://github.com/user-attachments/assets/a11bc9fe-0692-4ae4-88f9-98d8d6417dc5" />
 
 
 #### Insight:
 
-* Explosive 2021 Scaling: The business didn't just grow; it transformed. Sales jumped 266% year-over-year, moving from a $27M baseline in 2020 to over $100M in 2021, far exceeding the set goals.
-  
-* West Region Powerhouse: The West region is the primary revenue driver, contributing 33.22% of total sales. This is anchored by West Gear, which is the most valuable retailer, generating the highest sales ($36.39M) and operating profit ($12.55M).
-  
-* The January 2021 Pivot: There was a massive 785% growth spike in January 2021. This suggests a major successful event—likely a new product launch or a significant expansion in distribution—that permanently shifted the sales floor upward.
-  
-* Specialty Retailer Advantage: Traditional athletic/specialty stores (West Gear, Foot Locker, Sports Direct) significantly outperform mass-market retailers like Walmart and Amazon in both volume and profit for this footwear category.
+1. Subscription Value Gap
+
+Basic subscription is the flagship tier, generating $46M in revenue, significantly outperforming Premium at $29M. This indicates that the entry-level plan is the company's primary revenue engine.
+
+2. Tiered Revenue Efficiency
+
+The Standard plan delivers strong revenue efficiency, generating $41M in revenue while showing lower active hours than the Basic plan. This suggests effective monetization with relatively lower engagement.
+
+3. Omnichannel Payment Balance
+
+Customer payments are evenly distributed across all payment methods. Net Banking leads slightly at 25.22%, while the remaining channels collectively account for nearly 75% of transactions, reducing dependency on a single payment option.
+
+4. Platform Engagement Dominance
+
+Mobile is the dominant customer touchpoint, accounting for 54.93% of users—almost twice the share of Laptop users at 29.94%. This highlights the importance of maintaining a strong mobile experience.
 
 
 ###  Country Wise Analysis
 
-<img width="2340" height="1638" alt="enterprices_page-0002" src="https://github.com/user-attachments/assets/36702343-873f-4c30-bb46-75b99da4c78f" />
+<img width="684" height="466" alt="image" src="https://github.com/user-attachments/assets/86dd4d9d-43c8-4a81-a2d7-f95b2785080e" />
+
 
 
 
 #### insights
 
-* Footwear vs. Apparel Performance: Men’s Street Footwear is the clear flagship product, generating $208.83M in sales. This is significantly higher than the top apparel category (Women’s Apparel at $179.04M), indicating that footwear remains the brand's primary revenue engine.
-  
-* Retailer Profitability Efficiency: While West Gear leads in total sales volume ($242.96M), Foot Locker is nearly as profitable despite lower sales. Foot Locker contributes 24.3% of total operating profit compared to West Gear's 25.79%, suggesting Foot Locker may have better margins or lower operational costs.
+1. Geographic Market Leader
 
-* Omnichannel Balance: Sales are remarkably well-distributed across methods, with In-store (39.63%) leading slightly. However, the combined digital and discount channels (Online at 27.52% and Outlet at 32.85%) make up the majority of sales, showing a strong reliance on non-traditional storefronts.
+India is the company's strongest market, generating $40.84M in revenue. This is substantially higher than the USA, the second-largest market at $29.02M, making India the primary growth driver for the business.
 
-* High-Growth Mid-Year Peak: There is a massive sales surge during the summer, peaking in August ($92M) and July ($95M). This is nearly double the sales of the lowest month (March at $57M), pointing to a heavy "back-to-school" or summer season sales dependency.
+2. Market Value Efficiency
 
-* Tiered Retailer Contribution: There is a massive gap between "Big Three" retailers (West Gear, Foot Locker, Sports Direct) and mass-market ones like Walmart/Amazon. 
+Canada demonstrates strong revenue efficiency by generating $17.40M from only 22.4K customers. It delivers revenue comparable to the UK while serving a smaller customer base, indicating higher value per customer.
+
+3. Global Audience Balance
+
+Although India accounts for the largest share of customers (35.05%), the remaining customer base is well distributed across international markets. The USA contributes 25.02%, while the UK and Canada each represent approximately 15%, reducing reliance on a single region.
+
+4. Uniform ARPU Performance
+
+Average Revenue Per User (ARPU) remains highly consistent across all countries, ranging between $773 and $776. This suggests a standardized pricing strategy and similar customer spending behavior across global markets.
+
+
+###  Churn Analysis
+
+<img width="661" height="444" alt="image" src="https://github.com/user-attachments/assets/6fba683d-6c61-4b17-99cc-4669c4123cac" />
+
+#### insights
+
+1. High-Volume Churn Driver
+
+The Basic subscription tier experiences the highest customer churn, with 13K churned users compared to 8K in the Premium tier. This identifies entry-level customer retention as the business’s biggest churn challenge.
+
+2. Market Retention Efficiency
+
+India records the highest churn volume at 11K customers due to its large customer base. However, Germany shows weaker retention efficiency, losing 3K customers from a much smaller base, indicating a relatively high churn concentration.
+
+3. Support-Driven Defection Pattern
+
+A significant number of customers churn without ever contacting support (13K), suggesting that many users leave before seeking assistance. At the same time, customers with multiple support interactions collectively represent a large share of churn, highlighting the importance of faster issue resolution and proactive support.
+
+4. Silent Churn Among Satisfied Customers
+
+Customer churn peaks at a feedback rating of 4, with 13.2K churned users—nearly twice the churn observed among lower-rated segments. This suggests that churn is driven by factors beyond product satisfaction, such as pricing, competitive offers, or changing customer needs.
 
 
 
